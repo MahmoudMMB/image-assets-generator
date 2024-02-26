@@ -53,12 +53,10 @@ The image-assets-generator package is a powerful tool designed to streamline the
 * Run the command and linking + unlinking is automatic!
   ```
   npx image-assets-generator
-
   ```
   or 
   ```
   bash image-assets-generator
-
   ```
 ## Author
 
