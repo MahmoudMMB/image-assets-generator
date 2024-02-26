@@ -1,0 +1,47 @@
+{
+  "name": "image-assets-generator",
+  "version": "1.0.0",
+  "description": "The image-assets-generator package is a powerful tool designed to streamline the process of reading asset directories and automatically generating JSON files for each folder and nested subfolder. With this package, developers can efficiently organize and access their image assets within their React Native projects.",
+  "main": "lib/index.js",
+  "bin": "lib/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahmoudMMB/image-assets-generator.git"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:error": "npm run lint -- --quiet",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:report": "npm run lint -- --format html -o ./report.html",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "js",
+    "asset",
+    "assets",
+    "assets generator",
+    "icons",
+    "generator",
+    "images"
+  ],
+  "author": "Mahmoud Albelbeisi",
+  "license": "ISC",
+  "engines": {
+    "npm": ">=5.5.0",
+    "node": ">=9.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/MahmoudMMB/image-assets-generator/issues"
+  },
+  "homepage": "https://github.com/MahmoudMMB/image-assets-generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7",
+    "prettier": "^3.2.5"
+  }
+}
