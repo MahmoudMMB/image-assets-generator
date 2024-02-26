@@ -14,7 +14,7 @@
   </a>
 </p>
 
-> The image-assets-generator package is a powerful tool designed to streamline the process of reading asset directories and automatically generating JSON files for each folder and nested subfolder. With this package, developers can efficiently organize and access their image assets within their React Native projects.
+The image-assets-generator package is a powerful tool designed to streamline the process of reading asset directories and automatically generating JSON files for each folder and nested subfolder. With this package, developers can efficiently organize and access their image assets within their React Native projects.
 
 ### 🏠 [Homepage](https://github.com/MahmoudMMB/image-assets-generator#readme)
 
@@ -30,7 +30,9 @@
   # or yarn
   yarn global add image-assets-generator
   ```
-  
+
+*** 
+
 ## Usage
 * Add assets to your `react-native.config.js` as you would with `react-native link`
   ```js
@@ -49,10 +51,14 @@
   ```
 
 * Run the command and linking + unlinking is automatic!
-  ```npx image-assets-generator
+  ```
+  npx image-assets-generator
+
   ```
   or 
-  ```bash image-assets-generator
+  ```
+  bash image-assets-generator
+
   ```
 ## Author
 
@@ -73,5 +79,4 @@ Give a ⭐️ if this project helped you!
 Copyright © 2024 [Mahmoud Albelbeisi](https://github.com/MahmoudMMB).<br />
 This project is [ISC](https://github.com/MahmoudMMB/image-assets-generator/blob/master/LICENSE) licensed.
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+*** 
