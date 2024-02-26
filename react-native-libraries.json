@@ -1,0 +1,12 @@
+{
+    "githubUrl": "https://github.com/MahmoudMMB/image-assets-generator.git",
+    "npmPkg": "image-assets-generator",
+    "nameOverride": "image-assets-generator",
+    "ios": true,
+    "android": true,
+    "windows": true,
+    "web": true,
+    "expoGo": true,
+    "tvos": true,
+    "dev": true
+  }
