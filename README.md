@@ -33,24 +33,17 @@ The image-assets-generator package is a powerful tool designed to streamline the
 
 *** 
 
-## Usage
-* Add assets to your `react-native.config.js` as you would with `react-native link`
-  ```js
-  ...
-   assets: [
-      "./src/assets", 
-      "./assets",
-    ];
-  ```
+## Usage 
 * Add assets to your `react-native.config.js` like so:
   ```js
   ...
   assets: [
-    "./src/assets",
+      "./src/assets", 
+      "./assets",
   ], 
   ```
 
-* Run the command and linking + unlinking is automatic!
+* To generate JSON files for assets, run this command!
   ```
   npx image-assets-generator
   ```
@@ -58,6 +51,42 @@ The image-assets-generator package is a powerful tool designed to streamline the
   ```
   bash image-assets-generator
   ```
+
+For example, if you have this folder structure, you'll get the following result:
+
+  ├── assets
+    ├── general                 
+    │   ├── edit.png          
+    │   ├── background_banner.jpg         
+    │   ├── remove.jpg         
+    │   └── timer.png               
+    └── ...
+
+
+## Result 
+
+##### index.js
+```
+const GeneralAssets = {
+  Edit: require('./edit.png'),
+  BackgroundBanner: require('./background_banner.jpg'),
+  Remove: require('./remove.jpg'),
+  Timer: require('./timer.jpg'),
+};
+export default GeneralAssets;
+
+```
+##### Folder Structure
+
+
+  ├── assets
+    ├── general                 
+    │   ├── index.js          
+    │   ├── edit.png          
+    │   ├── background_banner.jpg         
+    │   ├── remove.jpg         
+    │   └── timer.png               
+    └── ...
 ## Author
 
 👤 **Mahmoud Albelbeisi**
