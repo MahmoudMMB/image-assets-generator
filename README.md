@@ -87,7 +87,8 @@ export default GeneralAssets;
         │   ├── remove.jpg         
         │   └── timer.png               
         └── ...
-    ```
+```
+
 ## Author
 
 👤 **Mahmoud Albelbeisi**
