@@ -1,6 +1,6 @@
 {
   "name": "image-assets-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The image-assets-generator package is a powerful tool designed to streamline the process of reading asset directories and automatically generating JSON files for each folder and nested subfolder. With this package, developers can efficiently organize and access their image assets within their React Native projects.",
   "main": "lib/index.js",
   "bin": "lib/cli.js",
