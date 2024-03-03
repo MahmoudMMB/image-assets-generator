@@ -53,15 +53,15 @@ The image-assets-generator package is a powerful tool designed to streamline the
   ```
 
 For example, if you have this folder structure, you'll get the following result:
-
-  ├── assets
-    ├── general                 
-    │   ├── edit.png          
-    │   ├── background_banner.jpg         
-    │   ├── remove.jpg         
-    │   └── timer.png               
-    └── ...
-
+```bash
+    ├── assets
+        ├── general                 
+        │   ├── edit.png          
+        │   ├── background_banner.jpg         
+        │   ├── remove.jpg         
+        │   └── timer.png               
+        └── ...
+```
 
 ## Result 
 
@@ -78,15 +78,16 @@ export default GeneralAssets;
 ```
 ##### Folder Structure
 
-
-  ├── assets
-    ├── general                 
-    │   ├── index.js          
-    │   ├── edit.png          
-    │   ├── background_banner.jpg         
-    │   ├── remove.jpg         
-    │   └── timer.png               
-    └── ...
+```bash
+    ├── assets
+        ├── general                 
+        │   ├── index.js          
+        │   ├── edit.png          
+        │   ├── background_banner.jpg         
+        │   ├── remove.jpg         
+        │   └── timer.png               
+        └── ...
+    ```
 ## Author
 
 👤 **Mahmoud Albelbeisi**
