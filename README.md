@@ -25,11 +25,15 @@ The image-assets-generator package is a powerful tool designed to streamline the
 
 ## Install
 * Install
-  ```bash
+```bash
   npm install -g image-assets-generator
-  # or yarn
+```
+
+  ##### or yarn
+
+```bash
   yarn global add image-assets-generator
-  ```
+```
 
 *** 
 
@@ -52,6 +56,9 @@ The image-assets-generator package is a powerful tool designed to streamline the
   bash image-assets-generator
   ```
 
+*** 
+## Result 
+
 For example, if you have this folder structure, you'll get the following result:
 ```bash
     ├── assets
@@ -62,8 +69,6 @@ For example, if you have this folder structure, you'll get the following result:
         │   └── timer.png               
         └── ...
 ```
-
-## Result 
 
 ##### index.js
 ```
